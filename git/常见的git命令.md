@@ -13,6 +13,7 @@ git add .
 
 ```
 git commit -m "这里写这次修改了什么"
+```
 
 3:最后是上传
 
@@ -47,4 +48,24 @@ git remote add origin cd git@github.com:ShiangHou/LLM_learn.git
 git remote add origin git@github.com:ShiangHou/LLM_learn.git
 ```
 即修改现有的仓库命令就行
+
+## 转换分支并修改
+如果自己新建了一个分支，怎么把自己的merge到别的分支上
+
+首先在自己的分支上git add
+
+然后切换到别人的分支
+
+
+```
+get checkout main
+```
+
+然后merge并推送
+
+
+``` 
+get merge master
+```
+
 
